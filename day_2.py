@@ -13,10 +13,18 @@ for i in range(2,10): #will start at 2 and end in 9
 # print ((i %2) == 0)
 
 
-#use for loop to loop thru 1-21
-for i in range(1, 21):
+# #use for loop to loop thru 1-21
+# for i in range(1, 21):
 
-#use modulus to check that result is not equal to 0
-    if ((i % 2) != 0):
-#print odds
-        print("i = ", i)
+# #use modulus to check that result is not equal to 0
+#     if ((i % 2) != 0):
+# #print odds
+#         print("i = ", i)
+
+# your_float = input("input a float: ")
+
+# your_float = float(your_float)
+
+# print("round to 2 decimals : {:.3f}".format(your_float))
+
+
