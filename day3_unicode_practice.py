@@ -1,5 +1,8 @@
+#REDO!!!!!!!!!!!!!!!!!!!!!
+
 # Enter a string to hide the unicode : Hide
 #secret message : 34567890
+
 #print Original message: hide
 
 #Input enter a string to hide in uppercae
@@ -13,7 +16,7 @@ for char in normal_string:
 #cycle thru each character code 2 at each time by inrementing by 2 each time
 print("Secret message", secret_string)
 #get the 1st and 2nd for the 2 digit number 
-normal_string += ""
+normal_string +=""
 for i in range(0, len(secret_string)-1, 2):
     char_code = secret_string[i] + secret_string[i + 1]
 
