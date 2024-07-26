@@ -20,3 +20,14 @@ def name_change(name):
 name = "Allen"
 name = name_change(name)
 print(name)
+
+
+
+gbl_name = "Jennifer"
+def chg_name():
+    global gbl_name
+    gbl_name = "Ashely"
+
+chg_name()
+
+print(gbl_name)
